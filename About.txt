@@ -1,0 +1,5 @@
+The use of Redux without redux tootkit becomes complicated as the reducer function gets bloated due to
+trying to apply so many logic on a single state with different props and actions dispactched. Also, trying to prevent state mutation can
+become an hectic task. So reduxtoolkit was introduced to make using redux more convenient.
+
+ 

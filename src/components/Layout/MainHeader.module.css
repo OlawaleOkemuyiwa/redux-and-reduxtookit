@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  height: 5rem;
+  padding: 0 10%;
+  background-color: #252424;
+  position: sticky;   /*Sticky position is a combination of relative positioning and fixed positioning. That is, initially the element is going to be positioned relative with an offset of top:0 left: 0(or any other positioning specified) from its original position. Just like in relative position, the element is still in the normal flow of document and the surrounding elements acknowledges its presence and respects its space. But as it gets to the scroll-point of top: 0 and left: 0 (or any other position specified) of the page i.e HTML. it becomes fixed and then it is detached from the normal document flow and the surrounding elements occupy its position as if the element isnt located there (which infact its not, just as in fixed positioning) */
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  color: white;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
